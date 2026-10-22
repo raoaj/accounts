@@ -3,7 +3,7 @@
 
 name: Maven Package
 
-on: window-dispatch
+on: workflow-dispatch
 
 jobs:
   build:
