@@ -34,4 +34,4 @@ jobs:
           mvn -version
 
       - name: Build and test with Maven
-        run: mvn --batch-mode --no-transfer-progress clean install -DskipTests
+        run: mvn --batch-mode --no-transfer-progress clean install --DskipTests
